@@ -1,11 +1,11 @@
-package me.ibrahimsn.lib.internal.core
+package me.prasann.lib.internal.core
 
 import android.content.Context
 import io.michaelrocks.libphonenumber.android.NumberParseException
 import io.michaelrocks.libphonenumber.android.PhoneNumberUtil
 import io.michaelrocks.libphonenumber.android.Phonenumber
-import me.ibrahimsn.lib.internal.ext.prependPlus
-import me.ibrahimsn.lib.internal.ext.startsWithPlus
+import me.prasann.lib.internal.ext.prependPlus
+import me.prasann.lib.internal.ext.startsWithPlus
 import java.util.*
 
 internal class Proxy(context: Context) {

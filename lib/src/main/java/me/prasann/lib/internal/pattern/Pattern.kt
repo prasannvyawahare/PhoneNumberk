@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib.internal.pattern
+package me.prasann.lib.internal.pattern
 
 interface Pattern {
 

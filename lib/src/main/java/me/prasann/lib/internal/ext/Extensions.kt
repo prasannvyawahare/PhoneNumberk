@@ -1,6 +1,6 @@
-package me.ibrahimsn.lib.internal.ext
+package me.prasann.lib.internal.ext
 
-import me.ibrahimsn.lib.internal.model.State
+import me.prasann.lib.internal.model.State
 
 private const val CHAR_PLUS = "+"
 

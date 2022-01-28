@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib.internal.ui
+package me.prasann.lib.internal.ui
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

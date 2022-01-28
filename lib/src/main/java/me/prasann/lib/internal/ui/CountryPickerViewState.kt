@@ -1,6 +1,6 @@
-package me.ibrahimsn.lib.internal.ui
+package me.prasann.lib.internal.ui
 
-import me.ibrahimsn.lib.api.Country
+import me.prasann.lib.api.Country
 
 data class CountryPickerViewState(
     val countries: List<Country>,

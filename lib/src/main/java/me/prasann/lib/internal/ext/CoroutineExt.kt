@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib.internal.ext
+package me.prasann.lib.internal.ext
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

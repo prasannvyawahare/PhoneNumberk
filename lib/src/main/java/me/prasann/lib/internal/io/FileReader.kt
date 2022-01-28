@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib.internal.io
+package me.prasann.lib.internal.io
 
 import android.content.Context
 import java.io.IOException

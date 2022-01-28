@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib.internal.ui
+package me.prasann.lib.internal.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.core.os.bundleOf
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -15,14 +13,13 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import me.ibrahimsn.lib.PhoneNumberKit
-import me.ibrahimsn.lib.R
-import me.ibrahimsn.lib.api.Country
-import me.ibrahimsn.lib.databinding.BottomSheetCountryPickerBinding
-import me.ibrahimsn.lib.internal.ext.default
-import me.ibrahimsn.lib.internal.ext.showIf
-import me.ibrahimsn.lib.internal.ext.toCountryList
-import me.ibrahimsn.lib.internal.io.FileReader
+import me.prasann.lib.PhoneNumberKit
+import me.prasann.lib.R
+import me.prasann.lib.api.Country
+import me.prasann.lib.databinding.BottomSheetCountryPickerBinding
+import me.prasann.lib.internal.ext.default
+import me.prasann.lib.internal.ext.toCountryList
+import me.prasann.lib.internal.io.FileReader
 import java.util.*
 
 class CountryPickerBottomSheet : BottomSheetDialogFragment() {

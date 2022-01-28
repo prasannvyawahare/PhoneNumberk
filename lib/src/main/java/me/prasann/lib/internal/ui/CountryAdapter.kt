@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib.internal.ui
+package me.prasann.lib.internal.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import me.ibrahimsn.lib.api.Country
-import me.ibrahimsn.lib.R
+import me.prasann.lib.api.Country
+import me.prasann.lib.R
 
 class CountryAdapter(
     @LayoutRes private var itemLayout: Int,

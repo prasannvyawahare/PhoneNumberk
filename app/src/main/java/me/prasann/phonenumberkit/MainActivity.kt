@@ -1,10 +1,10 @@
-package me.ibrahimsn.phonenumberkit
+package me.prasann.phonenumberkit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import me.ibrahimsn.lib.PhoneNumberKit
-import me.ibrahimsn.phonenumberkit.databinding.ActivityMainBinding
+import me.prasann.lib.PhoneNumberKit
+import me.prasann.phonenumberkit.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,7 +1,6 @@
-package me.ibrahimsn.lib.internal.model
+package me.prasann.lib.internal.model
 
-import me.ibrahimsn.lib.api.Country
-import me.ibrahimsn.lib.internal.pattern.CountryPattern
+import me.prasann.lib.api.Country
 
 sealed class State {
 

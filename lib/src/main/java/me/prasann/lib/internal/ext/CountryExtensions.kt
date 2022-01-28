@@ -1,6 +1,6 @@
-package me.ibrahimsn.lib.internal.ext
+package me.prasann.lib.internal.ext
 
-import me.ibrahimsn.lib.api.Country
+import me.prasann.lib.api.Country
 import org.json.JSONArray
 
 internal fun String?.toCountryList(): List<Country> {

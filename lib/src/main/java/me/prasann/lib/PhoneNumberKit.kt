@@ -1,4 +1,4 @@
-package me.ibrahimsn.lib
+package me.prasann.lib
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -13,15 +13,15 @@ import com.redmadrobot.inputmask.helper.AffinityCalculationStrategy
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collect
-import me.ibrahimsn.lib.api.Country
-import me.ibrahimsn.lib.api.Phone
-import me.ibrahimsn.lib.internal.core.Proxy
-import me.ibrahimsn.lib.internal.ext.*
-import me.ibrahimsn.lib.internal.io.FileReader
-import me.ibrahimsn.lib.internal.model.State
-import me.ibrahimsn.lib.internal.pattern.CountryPattern
-import me.ibrahimsn.lib.internal.ui.CountryPickerArguments
-import me.ibrahimsn.lib.internal.ui.CountryPickerBottomSheet
+import me.prasann.lib.api.Country
+import me.prasann.lib.api.Phone
+import me.prasann.lib.internal.core.Proxy
+import me.prasann.lib.internal.ext.*
+import me.prasann.lib.internal.io.FileReader
+import me.prasann.lib.internal.model.State
+import me.prasann.lib.internal.pattern.CountryPattern
+import me.prasann.lib.internal.ui.CountryPickerArguments
+import me.prasann.lib.internal.ui.CountryPickerBottomSheet
 import java.lang.ref.WeakReference
 import java.util.*
 
@@ -183,7 +183,7 @@ class PhoneNumberKit private constructor(
         input: TextInputLayout,
         country: Country,
     ) {
-        input.editText?.inputType = InputType.TYPE_CLASS_PHONE
+        input.editText?.inputType = InputType.TYPE_CLASS_TEXT
 
         input.isStartIconVisible = isIconEnabled
         input.setStartIconTintList(null)
