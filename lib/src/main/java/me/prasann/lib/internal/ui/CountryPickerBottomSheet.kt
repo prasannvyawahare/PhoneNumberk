@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.core.os.bundleOf
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -18,6 +20,7 @@ import me.prasann.lib.R
 import me.prasann.lib.api.Country
 import me.prasann.lib.databinding.BottomSheetCountryPickerBinding
 import me.prasann.lib.internal.ext.default
+import me.prasann.lib.internal.ext.showIf
 import me.prasann.lib.internal.ext.toCountryList
 import me.prasann.lib.internal.io.FileReader
 import java.util.*
