@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-parcelize'
@@ -46,8 +46,11 @@ project.afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
-                artifact androidSourcesJar
+               /* from components.release
+                artifact androidSourcesJar*/
+                artifactId "$project.name"
+                from components.release_apk
+
             }
         }
     }
